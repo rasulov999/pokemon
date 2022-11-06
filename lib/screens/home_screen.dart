@@ -40,7 +40,7 @@ class HomeScreen extends StatelessWidget {
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 2),
-                    itemCount: 10,
+                    itemCount: 12,
                     itemBuilder: (context, index) => PokemonContainer(() {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => InfoScreen(),));
                     }),
